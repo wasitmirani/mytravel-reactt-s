@@ -3,11 +3,10 @@ import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import Home from "../pages/Home";
 import HeaderMenu  from './header';
 import FooterMenu from "./footer";
+import NotFound  from '../pages/Error404';
 
 
-const NotFound: React.FC = () => {
-  return <h1>404 Not Found</h1>;
-};
+
 
 const Master: React.FC = () => {
   return (
@@ -31,7 +30,7 @@ const Master: React.FC = () => {
     
         <div className="preloader__title">GoTrip</div>
       </div>
-     
+      <main>
       {/* Header Component */}
         <HeaderMenu/>
 
@@ -41,7 +40,7 @@ const Master: React.FC = () => {
         </Routes>
         {/* Footer c */}
         <FooterMenu/>
-     
+        </main>
     </Router>
   );
 };
