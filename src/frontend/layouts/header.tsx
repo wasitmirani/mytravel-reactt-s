@@ -1,12 +1,18 @@
 
-import React from 'react';
-import { Link } from 'react-router-dom';
-const header = () => {
+import React, { useEffect } from 'react';
 
+import { Link, useLocation } from 'react-router-dom'
+
+const Header = () => {
+  
+  
+  useEffect(()=>{
+    
+  });
 
   return (
     <div>
-     <header data-add-bg="-header-5-sticky" className="header -type-5 js-header" data-x="header" data-x-toggle="is-menu-opened">
+     <header data-add-bg="-header-5-sticky" className='header -type-5 js-header '  data-x="header" data-x-toggle="is-menu-opened">
       <div data-anim="fade" className="header__container container is-in-view">
         <div className="row justify-between items-center">
 
@@ -40,9 +46,9 @@ const header = () => {
                         <li>
                           <Link to="/about">About Us</Link>
                         </li>
-                        <li>
+                        {/* <li>
                           <Link to="/blogs">Blogs</Link>
-                        </li>
+                        </li> */}
 
                   
 
@@ -448,4 +454,4 @@ const header = () => {
   );
 }
 
-export default header;
+export default Header;

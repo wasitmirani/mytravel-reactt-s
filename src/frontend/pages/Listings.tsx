@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 
-const Home: React.FC = () => {
+const Listings: React.FC = () => {
 
 
     useEffect(() => {
@@ -11,21 +11,16 @@ const Home: React.FC = () => {
 
   return (
     <div>
-
-    <section data-anim-wrap className="masthead -type-5">
-      <div data-anim-child="fade" className="masthead__bg">
-        <img src="img/masthead/5/bg.svg" alt="image" />
-      </div>
-
+    <div className="header-margin"></div>
+    <section className="pt-40 pb-40 bg-blue-2">
       <div className="container">
         <div className="row">
-          <div className="col-xl-9">
-            <h1 data-anim-child="slide-up delay-4" className="text-60 lg:text-40 md:text-30">Best Travel <span className="text-blue-1 relative">Experience <span className="-line">
-            <img src="img/general/line.png" alt="image"/></span></span></h1>
+          <div className="col-12">
+            <div className="text-center">
+              <h1 className="text-30 fw-600">Find Your Dream Luxury Hotel</h1>
+            </div>
 
-            <p data-anim-child="slide-up delay-5" className="mt-20">Experience the various exciting tour and travel packages and Make hotel reservations, find vacation packages, search cheap hotels and events</p>
-
-            <div data-anim-child="slide-up delay-6" className="mainSearch bg-white pr-20 py-20 lg:px-20 lg:pt-5 lg:pb-20 rounded-4 shadow-1 mt-35">
+            <div className="mainSearch bg-white px-10 py-10 lg:px-20 lg:pt-5 lg:pb-20 mt-30">
               <div className="button-grid items-center">
 
                 <div className="searchMenu-loc px-30 lg:py-20 lg:px-0 js-form-dd js-liverSearch">
@@ -34,7 +29,7 @@ const Home: React.FC = () => {
                     <h4 className="text-15 fw-500 ls-2 lh-16">Location</h4>
 
                     <div className="text-15 text-light-1 ls-2 lh-16">
-                      <input  type="search" placeholder="Where are you going?" className="js-search js-dd-focus" />
+                      <input type="search" placeholder="Where are you going?" className="js-search js-dd-focus" />
                     </div>
                   </div>
 
@@ -3458,7 +3453,7 @@ const Home: React.FC = () => {
 
 
                 <div className="button-item">
-                  <button className="mainSearch__submit button -dark-1 py-15 px-35 h-60 col-12 rounded-4 bg-blue-1 text-white">
+                  <button className="mainSearch__submit button -dark-1 py-15 px-40 col-12 rounded-4 bg-blue-1 text-white">
                     <i className="icon-search text-20 mr-10"></i>
                     Search
                   </button>
@@ -3468,1369 +3463,2115 @@ const Home: React.FC = () => {
           </div>
         </div>
       </div>
-
-      <div data-anim-child="fade" className="masthead__image">
-        <img src="img/masthead/5/1.png" alt="image"/>
-      </div>
-    </section>
-
-    <section className="layout-pt-lg layout-pb-md">
-      <div data-anim-wrap className="container">
-        <div data-anim-child="slide-up delay-1" className="row y-gap-20 justify-between items-end">
-          <div className="col-auto">
-            <div className="sectionTitle -md">
-              <h2 className="sectionTitle__title">Most Popular Tours</h2>
-              <p className=" sectionTitle__text mt-5 sm:mt-0">Interdum et malesuada fames ac ante ipsum</p>
-            </div>
-          </div>
-
-          <div className="col-auto">
-
-            <a href="#" className="button -md -blue-1 bg-blue-1-05 text-blue-1">
-              More <div className="icon-arrow-top-right ml-15"></div>
-            </a>
-
-          </div>
-        </div>
-
-        <div className="relative overflow-hidden pt-40 sm:pt-20 js-section-slider" data-gap="30" data-scrollbar data-slider-cols="xl-4 lg-3 md-2 sm-2 base-1" data-nav-prev="js-hotels-prev" data-pagination="js-hotels-pag" data-nav-next="js-hotels-next">
-          <div className="swiper-wrapper">
-
-            <div data-anim-child="slide-up delay-2" className="swiper-slide">
-
-              <a href="tour-single.html" className="tourCard -type-1 rounded-4 ">
-                <div className="tourCard__image">
-
-                  <div className="cardImage ratio ratio-1:1">
-                    <div className="cardImage__content">
-
-                      <img className="rounded-4 col-12" src="img/tours/1.png" alt="image"/>
-
-
-                    </div>
-
-                    <div className="cardImage__wishlist">
-                      <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
-                        <i className="icon-heart text-12"></i>
-                      </button>
-                    </div>
-
-
-                    <div className="cardImage__leftBadge">
-                      <div className="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-dark-1 text-white">
-                        LIKELY TO SELL OUT*
-                      </div>
-                    </div>
-
-                  </div>
-
-                </div>
-
-                <div className="tourCard__content mt-10">
-                  <div className="d-flex items-center lh-14 mb-5">
-                    <div className="text-14 text-light-1">16+ hours</div>
-                    <div className="size-3 bg-light-1 rounded-full ml-10 mr-10"></div>
-                    <div className="text-14 text-light-1">Full-day Tours</div>
-                  </div>
-
-                  <h4 className="tourCard__title text-dark-1 text-18 lh-16 fw-500">
-                    <span>Stonehenge, Windsor Castle and Bath with Pub Lunch in Lacock</span>
-                  </h4>
-
-                  <p className="text-light-1 lh-14 text-14 mt-5">Westminster Borough, London</p>
-
-                  <div className="row justify-between items-center pt-15">
-                    <div className="col-auto">
-                      <div className="d-flex items-center">
-                        <div className="d-flex items-center x-gap-5">
-
-                          <div className="icon-star text-yellow-1 text-10"></div>
-
-                          <div className="icon-star text-yellow-1 text-10"></div>
-
-                          <div className="icon-star text-yellow-1 text-10"></div>
-
-                          <div className="icon-star text-yellow-1 text-10"></div>
-
-                          <div className="icon-star text-yellow-1 text-10"></div>
-
-                        </div>
-
-                        <div className="text-14 text-light-1 ml-10">3,014 reviews</div>
-                      </div>
-                    </div>
-
-                    <div className="col-auto">
-                      <div className="text-14 text-light-1">
-                        From
-                        <span className="text-16 fw-500 text-dark-1">US$72</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-
-            </div>
-
-            <div data-anim-child="slide-up delay-3" className="swiper-slide">
-
-              <a href="tour-single.html" className="tourCard -type-1 rounded-4 ">
-                <div className="tourCard__image">
-
-                  <div className="cardImage ratio ratio-1:1">
-                    <div className="cardImage__content">
-
-
-                      <div className="cardImage-slider rounded-4 overflow-hidden js-cardImage-slider">
-                        <div className="swiper-wrapper">
-
-                          <div className="swiper-slide">
-                            <img className="col-12" src="img/tours/2.png" alt="image"/>
-                          </div>
-
-                          <div className="swiper-slide">
-                            <img className="col-12" src="img/tours/1.png" alt="image"/>
-                          </div>
-
-                          <div className="swiper-slide">
-                            <img className="col-12" src="img/tours/3.png" alt="image"/>
-                          </div>
-
-                        </div>
-
-                        <div className="cardImage-slider__pagination js-pagination"></div>
-
-                        <div className="cardImage-slider__nav -prev">
-                          <button className="button -blue-1 bg-white size-30 rounded-full shadow-2 js-prev">
-                            <i className="icon-chevron-left text-10"></i>
-                          </button>
-                        </div>
-
-                        <div className="cardImage-slider__nav -next">
-                          <button className="button -blue-1 bg-white size-30 rounded-full shadow-2 js-next">
-                            <i className="icon-chevron-right text-10"></i>
-                          </button>
-                        </div>
-                      </div>
-
-                    </div>
-
-                    <div className="cardImage__wishlist">
-                      <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
-                        <i className="icon-heart text-12"></i>
-                      </button>
-                    </div>
-
-
-                  </div>
-
-                </div>
-
-                <div className="tourCard__content mt-10">
-                  <div className="d-flex items-center lh-14 mb-5">
-                    <div className="text-14 text-light-1">9+ hours</div>
-                    <div className="size-3 bg-light-1 rounded-full ml-10 mr-10"></div>
-                    <div className="text-14 text-light-1">Attractions &amp; Museums</div>
-                  </div>
-
-                  <h4 className="tourCard__title text-dark-1 text-18 lh-16 fw-500">
-                    <span>Westminster Walking Tour & Westminster Abbey Entry</span>
-                  </h4>
-
-                  <p className="text-light-1 lh-14 text-14 mt-5">Ciutat Vella, Barcelona</p>
-
-                  <div className="row justify-between items-center pt-15">
-                    <div className="col-auto">
-                      <div className="d-flex items-center">
-                        <div className="d-flex items-center x-gap-5">
-
-                          <div className="icon-star text-yellow-1 text-10"></div>
-
-                          <div className="icon-star text-yellow-1 text-10"></div>
-
-                          <div className="icon-star text-yellow-1 text-10"></div>
-
-                          <div className="icon-star text-yellow-1 text-10"></div>
-
-                          <div className="icon-star text-yellow-1 text-10"></div>
-
-                        </div>
-
-                        <div className="text-14 text-light-1 ml-10">3,014 reviews</div>
-                      </div>
-                    </div>
-
-                    <div className="col-auto">
-                      <div className="text-14 text-light-1">
-                        From
-                        <span className="text-16 fw-500 text-dark-1">US$72</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-
-            </div>
-
-            <div data-anim-child="slide-up delay-4" className="swiper-slide">
-
-              <a href="tour-single.html" className="tourCard -type-1 rounded-4 ">
-                <div className="tourCard__image">
-
-                  <div className="cardImage ratio ratio-1:1">
-                    <div className="cardImage__content">
-
-                      <img className="rounded-4 col-12" src="img/tours/3.png" alt="image"/>
-
-
-                    </div>
-
-                    <div className="cardImage__wishlist">
-                      <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
-                        <i className="icon-heart text-12"></i>
-                      </button>
-                    </div>
-
-
-                    <div className="cardImage__leftBadge">
-                      <div className="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-blue-1 text-white">
-                        Best Seller
-                      </div>
-                    </div>
-
-                  </div>
-
-                </div>
-
-                <div className="tourCard__content mt-10">
-                  <div className="d-flex items-center lh-14 mb-5">
-                    <div className="text-14 text-light-1">40–55 minutes</div>
-                    <div className="size-3 bg-light-1 rounded-full ml-10 mr-10"></div>
-                    <div className="text-14 text-light-1">Private and Luxury</div>
-                  </div>
-
-                  <h4 className="tourCard__title text-dark-1 text-18 lh-16 fw-500">
-                    <span>High-Speed Thames River RIB Cruise in London</span>
-                  </h4>
-
-                  <p className="text-light-1 lh-14 text-14 mt-5">Manhattan, New York</p>
-
-                  <div className="row justify-between items-center pt-15">
-                    <div className="col-auto">
-                      <div className="d-flex items-center">
-                        <div className="d-flex items-center x-gap-5">
-
-                          <div className="icon-star text-yellow-1 text-10"></div>
-
-                          <div className="icon-star text-yellow-1 text-10"></div>
-
-                          <div className="icon-star text-yellow-1 text-10"></div>
-
-                          <div className="icon-star text-yellow-1 text-10"></div>
-
-                          <div className="icon-star text-yellow-1 text-10"></div>
-
-                        </div>
-
-                        <div className="text-14 text-light-1 ml-10">3,014 reviews</div>
-                      </div>
-                    </div>
-
-                    <div className="col-auto">
-                      <div className="text-14 text-light-1">
-                        From
-                        <span className="text-16 fw-500 text-dark-1">US$72</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-
-            </div>
-
-            <div data-anim-child="slide-up delay-5" className="swiper-slide">
-
-              <a href="tour-single.html" className="tourCard -type-1 rounded-4 ">
-                <div className="tourCard__image">
-
-                  <div className="cardImage ratio ratio-1:1">
-                    <div className="cardImage__content">
-
-                      <img className="rounded-4 col-12" src="img/tours/4.png" alt="image"/>
-
-
-                    </div>
-
-                    <div className="cardImage__wishlist">
-                      <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
-                        <i className="icon-heart text-12"></i>
-                      </button>
-                    </div>
-
-
-                    <div className="cardImage__leftBadge">
-                      <div className="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-yellow-1 text-dark-1">
-                        Top Rated
-                      </div>
-                    </div>
-
-                  </div>
-
-                </div>
-
-                <div className="tourCard__content mt-10">
-                  <div className="d-flex items-center lh-14 mb-5">
-                    <div className="text-14 text-light-1">94+ days</div>
-                    <div className="size-3 bg-light-1 rounded-full ml-10 mr-10"></div>
-                    <div className="text-14 text-light-1">Bus Tours</div>
-                  </div>
-
-                  <h4 className="tourCard__title text-dark-1 text-18 lh-16 fw-500">
-                    <span>Edinburgh Darkside Walking Tour: Mysteries, Murder and Legends</span>
-                  </h4>
-
-                  <p className="text-light-1 lh-14 text-14 mt-5">Vaticano Prati, Rome</p>
-
-                  <div className="row justify-between items-center pt-15">
-                    <div className="col-auto">
-                      <div className="d-flex items-center">
-                        <div className="d-flex items-center x-gap-5">
-
-                          <div className="icon-star text-yellow-1 text-10"></div>
-
-                          <div className="icon-star text-yellow-1 text-10"></div>
-
-                          <div className="icon-star text-yellow-1 text-10"></div>
-
-                          <div className="icon-star text-yellow-1 text-10"></div>
-
-                          <div className="icon-star text-yellow-1 text-10"></div>
-
-                        </div>
-
-                        <div className="text-14 text-light-1 ml-10">3,014 reviews</div>
-                      </div>
-                    </div>
-
-                    <div className="col-auto">
-                      <div className="text-14 text-light-1">
-                        From
-                        <span className="text-16 fw-500 text-dark-1">US$72</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-
-            </div>
-
-          </div>
-
-
-          <div className="d-flex x-gap-15 items-center justify-center pt-40 sm:pt-20">
-            <div className="col-auto">
-              <button className="d-flex items-center text-24 arrow-left-hover js-hotels-prev">
-                <i className="icon icon-arrow-left"></i>
-              </button>
-            </div>
-
-            <div className="col-auto">
-              <div className="pagination -dots text-border js-hotels-pag"></div>
-            </div>
-
-            <div className="col-auto">
-              <button className="d-flex items-center text-24 arrow-right-hover js-hotels-next">
-                <i className="icon icon-arrow-right"></i>
-              </button>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <section className="layout-pt-md layout-pb-md">
-      <div data-anim-wrap className="container">
-        <div data-anim-child="slide-up delay-1" className="row y-gap-20 justify-between items-end">
-          <div className="col-auto">
-            <div className="sectionTitle -md">
-              <h2 className="sectionTitle__title">Choose Tour Types</h2>
-              <p className=" sectionTitle__text mt-5 sm:mt-0">Interdum et malesuada fames ac ante ipsum</p>
-            </div>
-          </div>
-
-          <div className="col-auto">
-
-            <div className="d-flex x-gap-15 items-center ">
-              <div className="col-auto">
-                <button className="d-flex items-center text-24 arrow-left-hover js-tour-prev">
-                  <i className="icon icon-arrow-left"></i>
-                </button>
-              </div>
-
-              <div className="col-auto">
-                <div className="pagination -dots text-border js-tour-pag"></div>
-              </div>
-
-              <div className="col-auto">
-                <button className="d-flex items-center text-24 arrow-right-hover js-tour-next">
-                  <i className="icon icon-arrow-right"></i>
-                </button>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div className="relative overflow-hidden pt-40 sm:pt-20 js-section-slider" data-gap="30" data-scrollbar data-slider-cols="xl-5 lg-4 md-3 sm-2 base-1" data-nav-prev="js-tour-prev" data-pagination="js-tour-pag" data-nav-next="js-tour-next">
-          <div className="swiper-wrapper">
-
-            <div data-anim-child="slide-up delay-2" className="swiper-slide">
-
-              <a href="tour-single.html" className="tourTypeCard -type-1 d-block rounded-4 bg-blue-1-05 rounded-4">
-                <div className="tourTypeCard__content text-center pt-60 pb-24 px-30">
-                  <i className="icon-nature text-60 sm:text-40 text-blue-1"></i>
-                  <h4 className="text-dark-1 text-18 fw-500 mt-50 md:mt-30">Wildlife Tour</h4>
-                  <p className="text-light-1 lh-14 text-14 mt-5">5 Tours From 550$</p>
-                </div>
-              </a>
-
-            </div>
-
-            <div data-anim-child="slide-up delay-3" className="swiper-slide">
-
-              <a href="tour-single.html" className="tourTypeCard -type-1 d-block rounded-4 bg-blue-1-05 rounded-4">
-                <div className="tourTypeCard__content text-center pt-60 pb-24 px-30">
-                  <i className="icon-hiking text-60 sm:text-40 text-blue-1"></i>
-                  <h4 className="text-dark-1 text-18 fw-500 mt-50 md:mt-30">Adventure Tour</h4>
-                  <p className="text-light-1 lh-14 text-14 mt-5">5 Tours From 550$</p>
-                </div>
-              </a>
-
-            </div>
-
-            <div data-anim-child="slide-up delay-4" className="swiper-slide">
-
-              <a href="tour-single.html" className="tourTypeCard -type-1 d-block rounded-4 bg-blue-1-05 rounded-4">
-                <div className="tourTypeCard__content text-center pt-60 pb-24 px-30">
-                  <i className="icon-city text-60 sm:text-40 text-blue-1"></i>
-                  <h4 className="text-dark-1 text-18 fw-500 mt-50 md:mt-30">City Tours</h4>
-                  <p className="text-light-1 lh-14 text-14 mt-5">5 Tours From 550$</p>
-                </div>
-              </a>
-
-            </div>
-
-            <div data-anim-child="slide-up delay-5" className="swiper-slide">
-
-              <a href="tour-single.html" className="tourTypeCard -type-1 d-block rounded-4 bg-blue-1-05 rounded-4">
-                <div className="tourTypeCard__content text-center pt-60 pb-24 px-30">
-                  <i className="icon-museum text-60 sm:text-40 text-blue-1"></i>
-                  <h4 className="text-dark-1 text-18 fw-500 mt-50 md:mt-30">Museum Tours</h4>
-                  <p className="text-light-1 lh-14 text-14 mt-5">5 Tours From 550$</p>
-                </div>
-              </a>
-
-            </div>
-
-            <div data-anim-child="slide-up delay-6" className="swiper-slide">
-
-              <a href="tour-single.html" className="tourTypeCard -type-1 d-block rounded-4 bg-blue-1-05 rounded-4">
-                <div className="tourTypeCard__content text-center pt-60 pb-24 px-30">
-                  <i className="icon-beach-umbrella text-60 sm:text-40 text-blue-1"></i>
-                  <h4 className="text-dark-1 text-18 fw-500 mt-50 md:mt-30">Beaches Tour</h4>
-                  <p className="text-light-1 lh-14 text-14 mt-5">5 Tours From 550$</p>
-                </div>
-              </a>
-
-            </div>
-
-            <div data-anim-child="slide-up delay-7" className="swiper-slide">
-
-              <a href="tour-single.html" className="tourTypeCard -type-1 d-block rounded-4 bg-blue-1-05 rounded-4">
-                <div className="tourTypeCard__content text-center pt-60 pb-24 px-30">
-                  <i className="icon-nature text-60 sm:text-40 text-blue-1"></i>
-                  <h4 className="text-dark-1 text-18 fw-500 mt-50 md:mt-30">Wildlife Tour</h4>
-                  <p className="text-light-1 lh-14 text-14 mt-5">5 Tours From 550$</p>
-                </div>
-              </a>
-
-            </div>
-
-            <div data-anim-child="slide-up delay-8" className="swiper-slide">
-
-              <a href="tour-single.html" className="tourTypeCard -type-1 d-block rounded-4 bg-blue-1-05 rounded-4">
-                <div className="tourTypeCard__content text-center pt-60 pb-24 px-30">
-                  <i className="icon-hiking text-60 sm:text-40 text-blue-1"></i>
-                  <h4 className="text-dark-1 text-18 fw-500 mt-50 md:mt-30">Adventure Tour</h4>
-                  <p className="text-light-1 lh-14 text-14 mt-5">5 Tours From 550$</p>
-                </div>
-              </a>
-
-            </div>
-
-            <div data-anim-child="slide-up delay-9" className="swiper-slide">
-
-              <a href="tour-single.html" className="tourTypeCard -type-1 d-block rounded-4 bg-blue-1-05 rounded-4">
-                <div className="tourTypeCard__content text-center pt-60 pb-24 px-30">
-                  <i className="icon-city text-60 sm:text-40 text-blue-1"></i>
-                  <h4 className="text-dark-1 text-18 fw-500 mt-50 md:mt-30">City Tours</h4>
-                  <p className="text-light-1 lh-14 text-14 mt-5">5 Tours From 550$</p>
-                </div>
-              </a>
-
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section className="layout-pt-md layout-pb-md">
-      <div data-anim-wrap className="container">
-        <div data-anim-child="slide-up delay-1" className="row y-gap-20 justify-between items-end">
-          <div className="col-auto">
-            <div className="sectionTitle -md">
-              <h2 className="sectionTitle__title">Explore Hot Locations</h2>
-              <p className=" sectionTitle__text mt-5 sm:mt-0">Interdum et malesuada fames ac ante ipsum</p>
-            </div>
-          </div>
-
-          <div className="col-auto">
-
-            <a href="#" className="button -md -blue-1 bg-blue-1-05 text-blue-1">
-              More <div className="icon-arrow-top-right ml-15"></div>
-            </a>
-
-          </div>
-        </div>
-
-        <div className="row y-gap-30 pt-40 sm:pt-20">
-
-          <div data-anim-child="slide-up delay-2" className="col-xl-3 col-lg-4 col-md-6">
-            <a href="#" className="destCard -type-1 d-block">
-              <div className="row x-gap-20 y-gap-20 items-center">
-                <div className="col-auto">
-                  <div className="destCard__image rounded-4">
-                    <img className="size-100 rounded-4" src="img/cities/1/1.png" alt="image" />
-                  </div>
-                </div>
-
-                <div className="col-auto">
-                  <div className="text-18 fw-500">Miami</div>
-                  <div className="text-14 lh-14 text-light-1 mt-5">4,090 properties</div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div data-anim-child="slide-up delay-3" className="col-xl-3 col-lg-4 col-md-6">
-            <a href="#" className="destCard -type-1 d-block">
-              <div className="row x-gap-20 y-gap-20 items-center">
-                <div className="col-auto">
-                  <div className="destCard__image rounded-4">
-                    <img className="size-100 rounded-4" src="img/cities/1/2.png" alt="image" />
-                  </div>
-                </div>
-
-                <div className="col-auto">
-                  <div className="text-18 fw-500">Roma</div>
-                  <div className="text-14 lh-14 text-light-1 mt-5">4,090 properties</div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div data-anim-child="slide-up delay-4" className="col-xl-3 col-lg-4 col-md-6">
-            <a href="#" className="destCard -type-1 d-block">
-              <div className="row x-gap-20 y-gap-20 items-center">
-                <div className="col-auto">
-                  <div className="destCard__image rounded-4">
-                    <img className="size-100 rounded-4" src="img/cities/1/3.png" alt="image" />
-                  </div>
-                </div>
-
-                <div className="col-auto">
-                  <div className="text-18 fw-500">New Delhi</div>
-                  <div className="text-14 lh-14 text-light-1 mt-5">4,090 properties</div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div data-anim-child="slide-up delay-5" className="col-xl-3 col-lg-4 col-md-6">
-            <a href="#" className="destCard -type-1 d-block">
-              <div className="row x-gap-20 y-gap-20 items-center">
-                <div className="col-auto">
-                  <div className="destCard__image rounded-4">
-                    <img className="size-100 rounded-4" src="img/cities/1/4.png" alt="image"/>
-                  </div>
-                </div>
-
-                <div className="col-auto">
-                  <div className="text-18 fw-500">London</div>
-                  <div className="text-14 lh-14 text-light-1 mt-5">4,090 properties</div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div data-anim-child="slide-up delay-6" className="col-xl-3 col-lg-4 col-md-6">
-            <a href="#" className="destCard -type-1 d-block">
-              <div className="row x-gap-20 y-gap-20 items-center">
-                <div className="col-auto">
-                  <div className="destCard__image rounded-4">
-                    <img className="size-100 rounded-4" src="img/cities/1/5.png" alt="image" />
-                  </div>
-                </div>
-
-                <div className="col-auto">
-                  <div className="text-18 fw-500">Amsterdam</div>
-                  <div className="text-14 lh-14 text-light-1 mt-5">4,090 properties</div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div data-anim-child="slide-up delay-7" className="col-xl-3 col-lg-4 col-md-6">
-            <a href="#" className="destCard -type-1 d-block">
-              <div className="row x-gap-20 y-gap-20 items-center">
-                <div className="col-auto">
-                  <div className="destCard__image rounded-4">
-                    <img className="size-100 rounded-4" src="img/cities/1/6.png" alt="image" />
-                  </div>
-                </div>
-
-                <div className="col-auto">
-                  <div className="text-18 fw-500">Berlin</div>
-                  <div className="text-14 lh-14 text-light-1 mt-5">4,090 properties</div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div data-anim-child="slide-up delay-8" className="col-xl-3 col-lg-4 col-md-6">
-            <a href="#" className="destCard -type-1 d-block">
-              <div className="row x-gap-20 y-gap-20 items-center">
-                <div className="col-auto">
-                  <div className="destCard__image rounded-4">
-                    <img className="size-100 rounded-4" src="img/cities/1/7.png" alt="image" />
-                  </div>
-                </div>
-
-                <div className="col-auto">
-                  <div className="text-18 fw-500">Paris</div>
-                  <div className="text-14 lh-14 text-light-1 mt-5">4,090 properties</div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div data-anim-child="slide-up delay-9" className="col-xl-3 col-lg-4 col-md-6">
-            <a href="#" className="destCard -type-1 d-block">
-              <div className="row x-gap-20 y-gap-20 items-center">
-                <div className="col-auto">
-                  <div className="destCard__image rounded-4">
-                    <img className="size-100 rounded-4" src="img/cities/1/8.png" alt="image" />
-                  </div>
-                </div>
-
-                <div className="col-auto">
-                  <div className="text-18 fw-500">New Zealand</div>
-                  <div className="text-14 lh-14 text-light-1 mt-5">4,090 properties</div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <section className="layout-pt-md layout-pb-md">
-      <div data-anim-wrap className="container">
-        <div data-anim-child="slide-up" className="row y-gap-20 justify-between items-end">
-          <div className="col-auto">
-            <div className="sectionTitle -md">
-              <h2 className="sectionTitle__title">Deals &amp; Discounts</h2>
-              <p className=" sectionTitle__text mt-5 sm:mt-0">Interdum et malesuada fames ac ante ipsum</p>
-            </div>
-          </div>
-
-          <div className="col-auto">
-
-            <div className="d-flex x-gap-15 items-center ">
-              <div className="col-auto">
-                <button className="d-flex items-center text-24 arrow-left-hover js-deals-prev">
-                  <i className="icon icon-arrow-left"></i>
-                </button>
-              </div>
-
-              <div className="col-auto">
-                <div className="pagination -dots text-border js-deals-pag"></div>
-              </div>
-
-              <div className="col-auto">
-                <button className="d-flex items-center text-24 arrow-right-hover js-deals-next">
-                  <i className="icon icon-arrow-right"></i>
-                </button>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div className="row y-gap-30 pt-40">
-          <div data-anim-child="slide-up delay-2" className="col-xl-5">
-
-            <div className="ctaCard -type-1 rounded-4 ">
-              <div className="ctaCard__image ratio ratio-63:55">
-                <img className="img-ratio js-lazy" src="#" data-src="img/backgrounds/6.png" alt="image"/>
-              </div>
-
-              <div className="ctaCard__content py-50 px-50 lg:py-30 lg:px-30">
-
-                <div className="text-15 fw-500 text-white mb-10">Enjoy Summer Deals</div>
-
-
-                <h4 className="text-30 lg:text-24 text-white">Book Early to Save</h4>
-
-                <div className="d-inline-block mt-30">
-                  <a href="#" className="button px-48 py-15 -blue-1 -min-180 bg-white text-dark-1">Book Now</a>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <div data-anim-child="slide-left delay-3" className="col-xl-7">
-            <div className="relative overflow-hidden js-section-slider" data-gap="30" data-scrollbar data-slider-cols="xl-3 lg-3 md-2 sm-2 base-1" data-nav-prev="js-deals-prev" data-pagination="js-deals-pag" data-nav-next="js-deals-next">
-              <div className="swiper-wrapper">
-
-                <div className="swiper-slide">
-
-                  <a href="tour-single.html" className="tourCard -type-1 rounded-4 ">
-                    <div className="tourCard__image">
-
-                      <div className="cardImage ratio ratio-1:1">
-                        <div className="cardImage__content">
-
-                          <img className="rounded-4 col-12" src="img/tours/1.png" alt="image"/>
-
-
-                        </div>
-
-                        <div className="cardImage__wishlist">
-                          <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
-                            <i className="icon-heart text-12"></i>
-                          </button>
-                        </div>
-
-
-                        <div className="cardImage__leftBadge">
-                          <div className="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-dark-1 text-white">
-                            LIKELY TO SELL OUT*
-                          </div>
-                        </div>
-
-                      </div>
-
-                    </div>
-
-                    <div className="tourCard__content mt-10">
-                      <div className="d-flex items-center lh-14 mb-5">
-                        <div className="text-14 text-light-1">16+ hours</div>
-                        <div className="size-3 bg-light-1 rounded-full ml-10 mr-10"></div>
-                        <div className="text-14 text-light-1">Full-day Tours</div>
-                      </div>
-
-                      <h4 className="tourCard__title text-dark-1 text-18 lh-16 fw-500">
-                        <span>Stonehenge, Windsor Castle and Bath with Pub Lunch in Lacock</span>
-                      </h4>
-
-                      <p className="text-light-1 lh-14 text-14 mt-5">Westminster Borough, London</p>
-
-                      <div className="row justify-between items-center pt-15">
-                        <div className="col-auto">
-                          <div className="d-flex items-center">
-                            <div className="d-flex items-center x-gap-5">
-
-                              <div className="icon-star text-yellow-1 text-10"></div>
-
-                              <div className="icon-star text-yellow-1 text-10"></div>
-
-                              <div className="icon-star text-yellow-1 text-10"></div>
-
-                              <div className="icon-star text-yellow-1 text-10"></div>
-
-                              <div className="icon-star text-yellow-1 text-10"></div>
-
-                            </div>
-
-                            <div className="text-14 text-light-1 ml-10">3,014 reviews</div>
-                          </div>
-                        </div>
-
-                        <div className="col-auto">
-                          <div className="text-14 text-light-1">
-                            From
-                            <span className="text-16 fw-500 text-dark-1">US$72</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-
-                </div>
-
-                <div className="swiper-slide">
-
-                  <a href="tour-single.html" className="tourCard -type-1 rounded-4 ">
-                    <div className="tourCard__image">
-
-                      <div className="cardImage ratio ratio-1:1">
-                        <div className="cardImage__content">
-
-
-                          <div className="cardImage-slider rounded-4 overflow-hidden js-cardImage-slider">
-                            <div className="swiper-wrapper">
-
-                              <div className="swiper-slide">
-                                <img className="col-12" src="img/tours/2.png" alt="image"/>
-                              </div>
-
-                              <div className="swiper-slide">
-                                <img className="col-12" src="img/tours/1.png" alt="image"/>
-                              </div>
-
-                              <div className="swiper-slide">
-                                <img className="col-12" src="img/tours/3.png" alt="image"/>
-                              </div>
-
-                            </div>
-
-                            <div className="cardImage-slider__pagination js-pagination"></div>
-
-                            <div className="cardImage-slider__nav -prev">
-                              <button className="button -blue-1 bg-white size-30 rounded-full shadow-2 js-prev">
-                                <i className="icon-chevron-left text-10"></i>
-                              </button>
-                            </div>
-
-                            <div className="cardImage-slider__nav -next">
-                              <button className="button -blue-1 bg-white size-30 rounded-full shadow-2 js-next">
-                                <i className="icon-chevron-right text-10"></i>
-                              </button>
-                            </div>
-                          </div>
-
-                        </div>
-
-                        <div className="cardImage__wishlist">
-                          <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
-                            <i className="icon-heart text-12"></i>
-                          </button>
-                        </div>
-
-
-                      </div>
-
-                    </div>
-
-                    <div className="tourCard__content mt-10">
-                      <div className="d-flex items-center lh-14 mb-5">
-                        <div className="text-14 text-light-1">9+ hours</div>
-                        <div className="size-3 bg-light-1 rounded-full ml-10 mr-10"></div>
-                        <div className="text-14 text-light-1">Attractions &amp; Museums</div>
-                      </div>
-
-                      <h4 className="tourCard__title text-dark-1 text-18 lh-16 fw-500">
-                        <span>Westminster Walking Tour & Westminster Abbey Entry</span>
-                      </h4>
-
-                      <p className="text-light-1 lh-14 text-14 mt-5">Ciutat Vella, Barcelona</p>
-
-                      <div className="row justify-between items-center pt-15">
-                        <div className="col-auto">
-                          <div className="d-flex items-center">
-                            <div className="d-flex items-center x-gap-5">
-
-                              <div className="icon-star text-yellow-1 text-10"></div>
-
-                              <div className="icon-star text-yellow-1 text-10"></div>
-
-                              <div className="icon-star text-yellow-1 text-10"></div>
-
-                              <div className="icon-star text-yellow-1 text-10"></div>
-
-                              <div className="icon-star text-yellow-1 text-10"></div>
-
-                            </div>
-
-                            <div className="text-14 text-light-1 ml-10">3,014 reviews</div>
-                          </div>
-                        </div>
-
-                        <div className="col-auto">
-                          <div className="text-14 text-light-1">
-                            From
-                            <span className="text-16 fw-500 text-dark-1">US$72</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-
-                </div>
-
-                <div className="swiper-slide">
-
-                  <a href="tour-single.html" className="tourCard -type-1 rounded-4 ">
-                    <div className="tourCard__image">
-
-                      <div className="cardImage ratio ratio-1:1">
-                        <div className="cardImage__content">
-
-                          <img className="rounded-4 col-12" src="img/tours/3.png" alt="image"/>
-
-
-                        </div>
-
-                        <div className="cardImage__wishlist">
-                          <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
-                            <i className="icon-heart text-12"></i>
-                          </button>
-                        </div>
-
-
-                        <div className="cardImage__leftBadge">
-                          <div className="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-blue-1 text-white">
-                            Best Seller
-                          </div>
-                        </div>
-
-                      </div>
-
-                    </div>
-
-                    <div className="tourCard__content mt-10">
-                      <div className="d-flex items-center lh-14 mb-5">
-                        <div className="text-14 text-light-1">40–55 minutes</div>
-                        <div className="size-3 bg-light-1 rounded-full ml-10 mr-10"></div>
-                        <div className="text-14 text-light-1">Private and Luxury</div>
-                      </div>
-
-                      <h4 className="tourCard__title text-dark-1 text-18 lh-16 fw-500">
-                        <span>High-Speed Thames River RIB Cruise in London</span>
-                      </h4>
-
-                      <p className="text-light-1 lh-14 text-14 mt-5">Manhattan, New York</p>
-
-                      <div className="row justify-between items-center pt-15">
-                        <div className="col-auto">
-                          <div className="d-flex items-center">
-                            <div className="d-flex items-center x-gap-5">
-
-                              <div className="icon-star text-yellow-1 text-10"></div>
-
-                              <div className="icon-star text-yellow-1 text-10"></div>
-
-                              <div className="icon-star text-yellow-1 text-10"></div>
-
-                              <div className="icon-star text-yellow-1 text-10"></div>
-
-                              <div className="icon-star text-yellow-1 text-10"></div>
-
-                            </div>
-
-                            <div className="text-14 text-light-1 ml-10">3,014 reviews</div>
-                          </div>
-                        </div>
-
-                        <div className="col-auto">
-                          <div className="text-14 text-light-1">
-                            From
-                            <span className="text-16 fw-500 text-dark-1">US$72</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
     <section className="layout-pt-md layout-pb-lg">
       <div className="container">
-        <div className="row y-gap-15 justify-center text-center">
-
-          <div className="col-xl-3 col-sm-6">
-            <div className="text-40 lh-13 text-blue-1 fw-600">4,958</div>
-            <div className="text-14 lh-14 text-light-1 mt-5">Destinations</div>
-          </div>
-
-          <div className="col-xl-3 col-sm-6">
-            <div className="text-40 lh-13 text-blue-1 fw-600">2,869</div>
-            <div className="text-14 lh-14 text-light-1 mt-5">Total Properties</div>
-          </div>
-
-          <div className="col-xl-3 col-sm-6">
-            <div className="text-40 lh-13 text-blue-1 fw-600">2M</div>
-            <div className="text-14 lh-14 text-light-1 mt-5">Happy customers</div>
-          </div>
-
-          <div className="col-xl-3 col-sm-6">
-            <div className="text-40 lh-13 text-blue-1 fw-600">574,974</div>
-            <div className="text-14 lh-14 text-light-1 mt-5">Our Volunteers</div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <section className="section-bg layout-pt-lg md:pt-0 md:pb-60 sm:pb-40 layout-pb-lg bg-blue-1-05">
-      <div className="section-bg__item -right -image col-5 md:mb-60 sm:mb-40">
-        <img src="img/backgrounds/5.png" alt="image"/>
-      </div>
-
-      <div className="container">
-        <div className="row">
-          <div className="col-xl-4 col-md-7">
-            <h2 className="text-30 fw-600">Why Choose Us</h2>
-            <p className="mt-5">These popular destinations have a lot to offer</p>
-
-            <div className="row y-gap-30 pt-60 md:pt-40">
-
-              <div className="col-12">
-                <div className="d-flex pr-30">
-                  <img className="size-50" src="img/featureIcons/1/1.svg" alt="image"/>
-
-                    <div className="ml-15">
-                      <h4 className="text-18 fw-500">Best Price Guarantee</h4>
-                      <p className="text-15 mt-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
+        <div className="row y-gap-30">
+          <div className="col-xl-3 col-lg-4">
+            <aside className="sidebar y-gap-40">
+              <div className="sidebar__item -no-border">
+                <div className="flex-center ratio ratio-15:9 js-lazy" data-bg="img/general/map.png">
+                  <button className="button py-15 px-24 -blue-1 bg-white text-dark-1 absolute" data-x-click="mapFilter">
+                    <i className="icon-destination text-22 mr-10"></i>
+                    Show on map
+                  </button>
                 </div>
               </div>
 
-              <div className="col-12">
-                <div className="d-flex pr-30">
-                  <img className="size-50" src="img/featureIcons/1/2.svg" alt="image"/>
-
-                    <div className="ml-15">
-                      <h4 className="text-18 fw-500">Easy & Quick Booking</h4>
-                      <p className="text-15 mt-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
+              <div className="sidebar__item -no-border">
+                <h5 className="text-18 fw-500 mb-10">Search by property name</h5>
+                <div className="single-field relative d-flex items-center py-10">
+                  <input className="pl-50 border-light text-dark-1 h-50 rounded-8" type="email" placeholder="e.g. Best Western"/>
+                  <button className="absolute d-flex items-center h-full">
+                    <i className="icon-search text-20 px-15 text-dark-1"></i>
+                  </button>
                 </div>
               </div>
 
-              <div className="col-12">
-                <div className="d-flex pr-30">
-                  <img className="size-50" src="img/featureIcons/1/3.svg" alt="image"/>
+              <div className="sidebar__item">
+                <h5 className="text-18 fw-500 mb-10">Deals</h5>
+                <div className="sidebar-checkbox">
 
-                    <div className="ml-15">
-                      <h4 className="text-18 fw-500">Customer Care 24/7</h4>
-                      <p className="text-15 mt-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section className="section-bg layout-pt-lg layout-pb-md">
-      <div className="section-bg__item col-12">
-        <img src="img/backgrounds/testimonials/bg.png" alt="image"/>
-      </div>
-
-      <div data-anim="slide-up delay-1" className="container">
-        <div className="row justify-center text-center">
-          <div className="col-auto">
-            <div className="sectionTitle -md">
-              <h2 className="sectionTitle__title">Customer Reviews</h2>
-              <p className=" sectionTitle__text mt-5 sm:mt-0">Interdum et malesuada fames ac ante ipsum</p>
-            </div>
-          </div>
-        </div>
-
-
-        <div className="row justify-center pt-60 md:pt-30">
-          <div className="col-xl-5 col-lg-8 col-md-11">
-            <div className="overflow-hidden js-section-slider" data-slider-cols="base-1" data-gap="30" data-pagination="js-testimonials-pag">
-              <div className="swiper-wrapper">
-
-                <div className="swiper-slide">
-                  <div className="testimonials -type-2 text-center">
-                    <div className="testimonials__image mb-24 md:mb-20">
-                      <img src="img/testimonials/2/quote.svg" alt="quote"/>
-                        <img src="img/testimonials/2/1.png" alt="quote"/>
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox">
+                          <input type="checkbox"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
+                          </div>
                         </div>
-
-                        <h4 className="text-16 fw-500 text-blue-1">Hotel Equatorial Melaka</h4>
-                        <div className="fw-500 text-dark-1 mt-20">"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</div>
-
-                        <div className="testimonials__author mt-40">
-                          <h5 className="text-15 lh-14 fw-500">Brooklyn Simmons</h5>
-                          <div className="text-14 text-light-1 mt-5">Web Developer</div>
-                        </div>
+                        <div className="text-15 ml-10">Free cancellation</div>
+                      </div>
                     </div>
                   </div>
 
-                  <div className="swiper-slide">
-                    <div className="testimonials -type-2 text-center">
-                      <div className="testimonials__image mb-24 md:mb-20">
-                        <img src="img/testimonials/2/quote.svg" alt="quote"/>
-                          <img src="img/testimonials/2/2.png" alt="quote"/>
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox">
+                          <input type="checkbox"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
                           </div>
+                        </div>
+                        <div className="text-15 ml-10">Reserve now, pay at stay </div>
+                      </div>
+                    </div>
+                  </div>
 
-                          <h4 className="text-16 fw-500 text-blue-1">Hotel Equatorial Melaka</h4>
-                          <div className="fw-500 text-dark-1 mt-20">"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</div>
-
-                          <div className="testimonials__author mt-40">
-                            <h5 className="text-15 lh-14 fw-500">Brooklyn Simmons</h5>
-                            <div className="text-14 text-light-1 mt-5">Web Developer</div>
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox">
+                          <input type="checkbox"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
                           </div>
+                        </div>
+                        <div className="text-15 ml-10">Properties with special offers</div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div className="sidebar__item">
+                <h5 className="text-18 fw-500 mb-10">Popular Filters</h5>
+                <div className="sidebar-checkbox">
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox">
+                          <input type="checkbox"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
+                          </div>
+                        </div>
+                        <div className="text-15 ml-10">Breakfast Included</div>
                       </div>
                     </div>
 
-                    <div className="swiper-slide">
-                      <div className="testimonials -type-2 text-center">
-                        <div className="testimonials__image mb-24 md:mb-20">
-                          <img src="img/testimonials/2/quote.svg" alt="quote"/>
-                            <img src="img/testimonials/2/3.png" alt="quote"/>
-                            </div>
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">92</div>
+                    </div>
+                  </div>
 
-                            <h4 className="text-16 fw-500 text-blue-1">Hotel Equatorial Melaka</h4>
-                            <div className="fw-500 text-dark-1 mt-20">"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</div>
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox">
+                          <input type="checkbox"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
+                          </div>
+                        </div>
+                        <div className="text-15 ml-10">Romantic</div>
+                      </div>
+                    </div>
 
-                            <div className="testimonials__author mt-40">
-                              <h5 className="text-15 lh-14 fw-500">Brooklyn Simmons</h5>
-                              <div className="text-14 text-light-1 mt-5">Web Developer</div>
-                            </div>
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">45</div>
+                    </div>
+                  </div>
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox">
+                          <input type="checkbox"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
+                          </div>
+                        </div>
+                        <div className="text-15 ml-10">Airport Transfer</div>
+                      </div>
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">21</div>
+                    </div>
+                  </div>
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox">
+                          <input type="checkbox"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
+                          </div>
+                        </div>
+                        <div className="text-15 ml-10">WiFi Included </div>
+                      </div>
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">78</div>
+                    </div>
+                  </div>
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox">
+                          <input type="checkbox"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
+                          </div>
+                        </div>
+                        <div className="text-15 ml-10">5 Star</div>
+                      </div>
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">679</div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div className="sidebar__item pb-30">
+                <h5 className="text-18 fw-500 mb-10">Nightly Price</h5>
+                <div className="row x-gap-10 y-gap-30">
+                  <div className="col-12">
+                    <div className="js-price-rangeSlider">
+                      <div className="text-14 fw-500"></div>
+
+                      <div className="d-flex justify-between mb-20">
+                        <div className="text-15 text-dark-1">
+                          <span className="js-lower"></span>
+                          -
+                          <span className="js-upper"></span>
                         </div>
                       </div>
 
-                      <div className="swiper-slide">
-                        <div className="testimonials -type-2 text-center">
-                          <div className="testimonials__image mb-24 md:mb-20">
-                            <img src="img/testimonials/2/quote.svg" alt="quote"/>
-                              <img src="img/testimonials/2/4.png" alt="quote"/>
-                              </div>
+                      <div className="px-5">
+                        <div className="js-slider"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-                              <h4 className="text-16 fw-500 text-blue-1">Hotel Equatorial Melaka</h4>
-                              <div className="fw-500 text-dark-1 mt-20">"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</div>
+              <div className="sidebar__item">
+                <h5 className="text-18 fw-500 mb-10">Amenities</h5>
+                <div className="sidebar-checkbox">
 
-                              <div className="testimonials__author mt-40">
-                                <h5 className="text-15 lh-14 fw-500">Brooklyn Simmons</h5>
-                                <div className="text-14 text-light-1 mt-5">Web Developer</div>
-                              </div>
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox ">
+                          <input type="checkbox" name="name"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
                           </div>
                         </div>
 
-                        <div className="swiper-slide">
-                          <div className="testimonials -type-2 text-center">
-                            <div className="testimonials__image mb-24 md:mb-20">
-                              <img src="img/testimonials/2/quote.svg" alt="quote"/>
-                                <img src="img/testimonials/2/5.png" alt="quote"/>
-                                </div>
+                        <div className="text-15 ml-10">Breakfast Included</div>
 
-                                <h4 className="text-16 fw-500 text-blue-1">Hotel Equatorial Melaka</h4>
-                                <div className="fw-500 text-dark-1 mt-20">"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</div>
+                      </div>
 
-                                <div className="testimonials__author mt-40">
-                                  <h5 className="text-15 lh-14 fw-500">Brooklyn Simmons</h5>
-                                  <div className="text-14 text-light-1 mt-5">Web Developer</div>
-                                </div>
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">92</div>
+                    </div>
+                  </div>
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox ">
+                          <input type="checkbox" name="name"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
+                          </div>
+                        </div>
+
+                        <div className="text-15 ml-10">WiFi Included </div>
+
+                      </div>
+
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">45</div>
+                    </div>
+                  </div>
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox ">
+                          <input type="checkbox" name="name"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
+                          </div>
+                        </div>
+
+                        <div className="text-15 ml-10">Pool</div>
+
+                      </div>
+
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">21</div>
+                    </div>
+                  </div>
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox ">
+                          <input type="checkbox" name="name"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
+                          </div>
+                        </div>
+
+                        <div className="text-15 ml-10">Restaurant </div>
+
+                      </div>
+
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">78</div>
+                    </div>
+                  </div>
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox ">
+                          <input type="checkbox" name="name"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
+                          </div>
+                        </div>
+
+                        <div className="text-15 ml-10">Air conditioning </div>
+
+                      </div>
+
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">679</div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div className="sidebar__item">
+                <h5 className="text-18 fw-500 mb-10">Star Rating</h5>
+                <div className="row x-gap-10 y-gap-10 pt-10">
+
+                  <div className="col-auto">
+                    <a href="#" className="button -blue-1 bg-blue-1-05 text-blue-1 py-5 px-20 rounded-100">1</a>
+                  </div>
+
+                  <div className="col-auto">
+                    <a href="#" className="button -blue-1 bg-blue-1-05 text-blue-1 py-5 px-20 rounded-100">2</a>
+                  </div>
+
+                  <div className="col-auto">
+                    <a href="#" className="button -blue-1 bg-blue-1-05 text-blue-1 py-5 px-20 rounded-100">3</a>
+                  </div>
+
+                  <div className="col-auto">
+                    <a href="#" className="button -blue-1 bg-blue-1-05 text-blue-1 py-5 px-20 rounded-100">4</a>
+                  </div>
+
+                  <div className="col-auto">
+                    <a href="#" className="button -blue-1 bg-blue-1-05 text-blue-1 py-5 px-20 rounded-100">5</a>
+                  </div>
+
+                </div>
+              </div>
+
+              <div className="sidebar__item">
+                <h5 className="text-18 fw-500 mb-10">Guest Rating</h5>
+                <div className="sidebar-checkbox">
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+
+                      <div className="form-radio d-flex items-center ">
+                        <div className="radio">
+                          <input type="radio" name="name"/>
+                          <div className="radio__mark">
+                            <div className="radio__icon"></div>
+                          </div>
+                        </div>
+                        <div className="ml-10">Any</div>
+                      </div>
+
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">92</div>
+                    </div>
+                  </div>
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+
+                      <div className="form-radio d-flex items-center ">
+                        <div className="radio">
+                          <input type="radio" name="name"/>
+                          <div className="radio__mark">
+                            <div className="radio__icon"></div>
+                          </div>
+                        </div>
+                        <div className="ml-10">Wonderful 4.5+</div>
+                      </div>
+
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">45</div>
+                    </div>
+                  </div>
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+
+                      <div className="form-radio d-flex items-center ">
+                        <div className="radio">
+                          <input type="radio" name="name"/>
+                          <div className="radio__mark">
+                            <div className="radio__icon"></div>
+                          </div>
+                        </div>
+                        <div className="ml-10">Very good 4+</div>
+                      </div>
+
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">21</div>
+                    </div>
+                  </div>
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+
+                      <div className="form-radio d-flex items-center ">
+                        <div className="radio">
+                          <input type="radio" name="name"/>
+                          <div className="radio__mark">
+                            <div className="radio__icon"></div>
+                          </div>
+                        </div>
+                        <div className="ml-10">Good 3.5+ </div>
+                      </div>
+
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">78</div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div className="sidebar__item">
+                <h5 className="text-18 fw-500 mb-10">Style</h5>
+                <div className="sidebar-checkbox">
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox ">
+                          <input type="checkbox" name="name"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
+                          </div>
+                        </div>
+
+                        <div className="text-15 ml-10">Budget</div>
+
+                      </div>
+
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">92</div>
+                    </div>
+                  </div>
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox ">
+                          <input type="checkbox" name="name"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
+                          </div>
+                        </div>
+
+                        <div className="text-15 ml-10">Mid-range </div>
+
+                      </div>
+
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">45</div>
+                    </div>
+                  </div>
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox ">
+                          <input type="checkbox" name="name"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
+                          </div>
+                        </div>
+
+                        <div className="text-15 ml-10">Luxury</div>
+
+                      </div>
+
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">21</div>
+                    </div>
+                  </div>
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox ">
+                          <input type="checkbox" name="name"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
+                          </div>
+                        </div>
+
+                        <div className="text-15 ml-10">Family-friendly </div>
+
+                      </div>
+
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">78</div>
+                    </div>
+                  </div>
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox ">
+                          <input type="checkbox" name="name"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
+                          </div>
+                        </div>
+
+                        <div className="text-15 ml-10">Business </div>
+
+                      </div>
+
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">679</div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div className="sidebar__item">
+                <h5 className="text-18 fw-500 mb-10">Neighborhood</h5>
+                <div className="sidebar-checkbox">
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox ">
+                          <input type="checkbox" name="name"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
+                          </div>
+                        </div>
+
+                        <div className="text-15 ml-10">Central London</div>
+
+                      </div>
+
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">92</div>
+                    </div>
+                  </div>
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox ">
+                          <input type="checkbox" name="name"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
+                          </div>
+                        </div>
+
+                        <div className="text-15 ml-10">Guests&#39; favourite area </div>
+
+                      </div>
+
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">45</div>
+                    </div>
+                  </div>
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox ">
+                          <input type="checkbox" name="name"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
+                          </div>
+                        </div>
+
+                        <div className="text-15 ml-10">Westminster Borough</div>
+
+                      </div>
+
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">21</div>
+                    </div>
+                  </div>
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox ">
+                          <input type="checkbox" name="name"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
+                          </div>
+                        </div>
+
+                        <div className="text-15 ml-10">Kensington and Chelsea </div>
+
+                      </div>
+
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">78</div>
+                    </div>
+                  </div>
+
+                  <div className="row y-gap-10 items-center justify-between">
+                    <div className="col-auto">
+
+                      <div className="d-flex items-center">
+                        <div className="form-checkbox ">
+                          <input type="checkbox" name="name"/>
+                          <div className="form-checkbox__mark">
+                            <div className="form-checkbox__icon icon-check"></div>
+                          </div>
+                        </div>
+
+                        <div className="text-15 ml-10">Oxford Street </div>
+
+                      </div>
+
+                    </div>
+
+                    <div className="col-auto">
+                      <div className="text-15 text-light-1">679</div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </aside>
+          </div>
+
+          <div className="col-xl-9 col-lg-8">
+            <div className="row y-gap-10 items-center justify-between">
+              <div className="col-auto">
+                <div className="text-18"><span className="fw-500">3,269 properties</span> in Europe</div>
+              </div>
+
+              <div className="col-auto">
+                <div className="row x-gap-20 y-gap-20">
+                  <div className="col-auto">
+                    <button className="button -blue-1 h-40 px-20 rounded-100 bg-blue-1-05 text-15 text-blue-1">
+                      <i className="icon-up-down text-14 mr-10"></i>
+                      Top picks for your search
+                    </button>
+                  </div>
+
+                  <div className="col-auto d-none lg:d-block">
+                    <button data-x-click="filterPopup" className="button -blue-1 h-40 px-20 rounded-100 bg-blue-1-05 text-15 text-blue-1">
+                      <i className="icon-up-down text-14 mr-10"></i>
+                      Filter
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="filterPopup bg-white" data-x="filterPopup" data-x-toggle="-is-active">
+              <aside className="sidebar -mobile-filter">
+                <div data-x-click="filterPopup" className="-icon-close">
+                  <i className="icon-close"></i>
+                </div>
+
+                <div className="sidebar__item">
+                  <div className="flex-center ratio ratio-15:9 js-lazy" data-bg="img/general/map.png">
+                    <button className="button py-15 px-24 -blue-1 bg-white text-dark-1 absolute" data-x-click="mapFilter">
+                      <i className="icon-destination text-22 mr-10"></i>
+                      Show on map
+                    </button>
+                  </div>
+                </div>
+
+                <div className="sidebar__item">
+                  <h5 className="text-18 fw-500 mb-10">Search by property name</h5>
+                  <div className="single-field relative d-flex items-center py-10">
+                    <input className="pl-50 border-light text-dark-1 h-50 rounded-8" type="email" placeholder="e.g. Best Western" />
+                    <button className="absolute d-flex items-center h-full">
+                      <i className="icon-search text-20 px-15 text-dark-1"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <div className="sidebar__item">
+                  <h5 className="text-18 fw-500 mb-10">Deals</h5>
+                  <div className="sidebar-checkbox">
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox">
+                            <input type="checkbox"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+                          <div className="text-15 ml-10">Free cancellation</div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox">
+                            <input type="checkbox"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+                          <div className="text-15 ml-10">Reserve now, pay at stay </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox">
+                            <input type="checkbox"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+                          <div className="text-15 ml-10">Properties with special offers</div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div className="sidebar__item">
+                  <h5 className="text-18 fw-500 mb-10">Popular Filters</h5>
+                  <div className="sidebar-checkbox">
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox">
+                            <input type="checkbox"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+                          <div className="text-15 ml-10">Breakfast Included</div>
+                        </div>
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">92</div>
+                      </div>
+                    </div>
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox">
+                            <input type="checkbox"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+                          <div className="text-15 ml-10">Romantic</div>
+                        </div>
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">45</div>
+                      </div>
+                    </div>
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox">
+                            <input type="checkbox"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+                          <div className="text-15 ml-10">Airport Transfer</div>
+                        </div>
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">21</div>
+                      </div>
+                    </div>
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox">
+                            <input type="checkbox"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+                          <div className="text-15 ml-10">WiFi Included </div>
+                        </div>
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">78</div>
+                      </div>
+                    </div>
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox">
+                            <input type="checkbox"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+                          <div className="text-15 ml-10">5 Star</div>
+                        </div>
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">679</div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div className="sidebar__item pb-30">
+                  <h5 className="text-18 fw-500 mb-10">Nightly Price</h5>
+                  <div className="row x-gap-10 y-gap-30">
+                    <div className="col-12">
+                      <div className="js-price-rangeSlider">
+                        <div className="text-14 fw-500"></div>
+
+                        <div className="d-flex justify-between mb-20">
+                          <div className="text-15 text-dark-1">
+                            <span className="js-lower"></span>
+                            -
+                            <span className="js-upper"></span>
+                          </div>
+                        </div>
+
+                        <div className="px-5">
+                          <div className="js-slider"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="sidebar__item">
+                  <h5 className="text-18 fw-500 mb-10">Amenities</h5>
+                  <div className="sidebar-checkbox">
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox ">
+                            <input type="checkbox" name="name"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
                             </div>
                           </div>
 
+                          <div className="text-15 ml-10">Breakfast Included</div>
+
                         </div>
 
+                      </div>
 
-                        <div className="d-flex x-gap-15 items-center justify-center pt-40 sm:pt-20">
-                          <div className="col-auto">
-                            <button className="d-flex items-center text-24 arrow-left-hover js-prev">
-                              <i className="icon icon-arrow-left"></i>
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">92</div>
+                      </div>
+                    </div>
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox ">
+                            <input type="checkbox" name="name"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+
+                          <div className="text-15 ml-10">WiFi Included </div>
+
+                        </div>
+
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">45</div>
+                      </div>
+                    </div>
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox ">
+                            <input type="checkbox" name="name"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+
+                          <div className="text-15 ml-10">Pool</div>
+
+                        </div>
+
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">21</div>
+                      </div>
+                    </div>
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox ">
+                            <input type="checkbox" name="name"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+
+                          <div className="text-15 ml-10">Restaurant </div>
+
+                        </div>
+
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">78</div>
+                      </div>
+                    </div>
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox ">
+                            <input type="checkbox" name="name"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+
+                          <div className="text-15 ml-10">Air conditioning </div>
+
+                        </div>
+
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">679</div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div className="sidebar__item">
+                  <h5 className="text-18 fw-500 mb-10">Star Rating</h5>
+                  <div className="row y-gap-10 x-gap-10 pt-10">
+
+                    <div className="col-auto">
+                      <a href="#" className="button -blue-1 bg-blue-1-05 text-blue-1 py-5 px-20 rounded-100">1</a>
+                    </div>
+
+                    <div className="col-auto">
+                      <a href="#" className="button -blue-1 bg-blue-1-05 text-blue-1 py-5 px-20 rounded-100">2</a>
+                    </div>
+
+                    <div className="col-auto">
+                      <a href="#" className="button -blue-1 bg-blue-1-05 text-blue-1 py-5 px-20 rounded-100">3</a>
+                    </div>
+
+                    <div className="col-auto">
+                      <a href="#" className="button -blue-1 bg-blue-1-05 text-blue-1 py-5 px-20 rounded-100">4</a>
+                    </div>
+
+                    <div className="col-auto">
+                      <a href="#" className="button -blue-1 bg-blue-1-05 text-blue-1 py-5 px-20 rounded-100">5</a>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div className="sidebar__item">
+                  <h5 className="text-18 fw-500 mb-10">Guest Rating</h5>
+                  <div className="sidebar-checkbox">
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+
+                        <div className="form-radio d-flex items-center ">
+                          <div className="radio">
+                            <input type="radio" name="name"/>
+                            <div className="radio__mark">
+                              <div className="radio__icon"></div>
+                            </div>
+                          </div>
+                          <div className="ml-10">Any</div>
+                        </div>
+
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">92</div>
+                      </div>
+                    </div>
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+
+                        <div className="form-radio d-flex items-center ">
+                          <div className="radio">
+                            <input type="radio" name="name"/>
+                            <div className="radio__mark">
+                              <div className="radio__icon"></div>
+                            </div>
+                          </div>
+                          <div className="ml-10">Wonderful 4.5+</div>
+                        </div>
+
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">45</div>
+                      </div>
+                    </div>
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+
+                        <div className="form-radio d-flex items-center ">
+                          <div className="radio">
+                            <input type="radio" name="name"/>
+                            <div className="radio__mark">
+                              <div className="radio__icon"></div>
+                            </div>
+                          </div>
+                          <div className="ml-10">Very good 4+</div>
+                        </div>
+
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">21</div>
+                      </div>
+                    </div>
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+
+                        <div className="form-radio d-flex items-center ">
+                          <div className="radio">
+                            <input type="radio" name="name"/>
+                            <div className="radio__mark">
+                              <div className="radio__icon"></div>
+                            </div>
+                          </div>
+                          <div className="ml-10">Good 3.5+ </div>
+                        </div>
+
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">78</div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div className="sidebar__item">
+                  <h5 className="text-18 fw-500 mb-10">Style</h5>
+                  <div className="sidebar-checkbox">
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox ">
+                            <input type="checkbox" name="name"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+
+                          <div className="text-15 ml-10">Budget</div>
+
+                        </div>
+
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">92</div>
+                      </div>
+                    </div>
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox ">
+                            <input type="checkbox" name="name"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+
+                          <div className="text-15 ml-10">Mid-range </div>
+
+                        </div>
+
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">45</div>
+                      </div>
+                    </div>
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox ">
+                            <input type="checkbox" name="name"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+
+                          <div className="text-15 ml-10">Luxury</div>
+
+                        </div>
+
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">21</div>
+                      </div>
+                    </div>
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox ">
+                            <input type="checkbox" name="name"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+
+                          <div className="text-15 ml-10">Family-friendly </div>
+
+                        </div>
+
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">78</div>
+                      </div>
+                    </div>
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox ">
+                            <input type="checkbox" name="name"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+
+                          <div className="text-15 ml-10">Business </div>
+
+                        </div>
+
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">679</div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div className="sidebar__item">
+                  <h5 className="text-18 fw-500 mb-10">Neighborhood</h5>
+                  <div className="sidebar-checkbox">
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox ">
+                            <input type="checkbox" name="name"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+
+                          <div className="text-15 ml-10">Central London</div>
+
+                        </div>
+
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">92</div>
+                      </div>
+                    </div>
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox ">
+                            <input type="checkbox" name="name"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+
+                          <div className="text-15 ml-10">Guests&#39; favourite area </div>
+
+                        </div>
+
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">45</div>
+                      </div>
+                    </div>
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox ">
+                            <input type="checkbox" name="name"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+
+                          <div className="text-15 ml-10">Westminster Borough</div>
+
+                        </div>
+
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">21</div>
+                      </div>
+                    </div>
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox ">
+                            <input type="checkbox" name="name"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+
+                          <div className="text-15 ml-10">Kensington and Chelsea </div>
+
+                        </div>
+
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">78</div>
+                      </div>
+                    </div>
+
+                    <div className="row items-center justify-between">
+                      <div className="col-auto">
+
+                        <div className="d-flex items-center">
+                          <div className="form-checkbox ">
+                            <input type="checkbox" name="name"/>
+                            <div className="form-checkbox__mark">
+                              <div className="form-checkbox__icon icon-check"></div>
+                            </div>
+                          </div>
+
+                          <div className="text-15 ml-10">Oxford Street </div>
+
+                        </div>
+
+                      </div>
+
+                      <div className="col-auto">
+                        <div className="text-15 text-light-1">679</div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </aside>
+            </div>
+
+            <div className="border-top-light mt-30 mb-30"></div>
+
+            <div className="row y-gap-30">
+
+              <div className="col-lg-4 col-sm-6">
+
+                <a href="hotel-single-1.html" className="hotelsCard -type-1 ">
+                  <div className="hotelsCard__image">
+
+                    <div className="cardImage ratio ratio-1:1 rounded-4">
+                      <div className="cardImage__content">
+
+                        <img className="rounded-4 col-12" src="img/lists/hotel/2/1.png" alt="image" />
+
+
+                      </div>
+
+                      <div className="cardImage__wishlist">
+                        <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
+                          <i className="icon-heart text-12"></i>
+                        </button>
+                      </div>
+
+
+                    </div>
+
+                  </div>
+
+                  <div className="hotelsCard__content mt-10">
+                    <h4 className="hotelsCard__title text-dark-1 text-18 lh-16 fw-500">
+                      <span>Staycity Aparthotels Deptford Bridge Station</span>
+                    </h4>
+
+                    <p className="text-light-1 lh-14 text-14 mt-5">Westminster Borough, London</p>
+
+                    <div className="d-flex items-center mt-20">
+                      <div className="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white">4.8</div>
+                      <div className="text-14 text-dark-1 fw-500 ml-10">Exceptional</div>
+                      <div className="text-14 text-light-1 ml-10">3,014 reviews</div>
+                    </div>
+
+                    <div className="mt-5">
+                      <div className="fw-500">
+                        Starting from <span className="text-blue-1">US$72</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+
+              <div className="col-lg-4 col-sm-6">
+
+                <a href="hotel-single-1.html" className="hotelsCard -type-1 ">
+                  <div className="hotelsCard__image">
+
+                    <div className="cardImage ratio ratio-1:1 rounded-4">
+                      <div className="cardImage__content">
+
+
+                        <div className="cardImage-slider rounded-4 overflow-hidden js-cardImage-slider">
+                          <div className="swiper-wrapper">
+
+                            <div className="swiper-slide">
+                              <img className="col-12" src="img/lists/hotel/2/2.png" alt="image" />
+                            </div>
+
+                            <div className="swiper-slide">
+                              <img className="col-12" src="img/lists/hotel/2/1.png" alt="image" />
+                            </div>
+
+                            <div className="swiper-slide">
+                              <img className="col-12" src="img/lists/hotel/2/3.png" alt="image" />
+                            </div>
+
+                          </div>
+
+                          <div className="cardImage-slider__pagination js-pagination"></div>
+
+                          <div className="cardImage-slider__nav -prev">
+                            <button className="button -blue-1 bg-white size-30 rounded-full shadow-2 js-prev">
+                              <i className="icon-chevron-left text-10"></i>
                             </button>
                           </div>
 
-                          <div className="col-auto">
-                            <div className="pagination -dots text-border js-testimonials-pag"></div>
-                          </div>
-
-                          <div className="col-auto">
-                            <button className="d-flex items-center text-24 arrow-right-hover js-next">
-                              <i className="icon icon-arrow-right"></i>
+                          <div className="cardImage-slider__nav -next">
+                            <button className="button -blue-1 bg-white size-30 rounded-full shadow-2 js-next">
+                              <i className="icon-chevron-right text-10"></i>
                             </button>
                           </div>
                         </div>
 
                       </div>
-                    </div>
-                  </div>
 
-                </div>
-              </section>
-
-              <section className="layout-pt-lg layout-pb-md">
-                <div className="container">
-                  <div className="row justify-center text-center">
-                    <div className="col-auto">
-                      <div className="text-15 lh-1">Trusted by the world’s best</div>
-                    </div>
-                  </div>
-
-                  <div className="row y-gap-40 justify-between items-center pt-60 lg:pt-40 sm:pt-20">
-
-                    <div className="col-md-auto col-6">
-                      <div className="d-flex justify-center">
-                        <img src="img/clients/1.svg" alt="image"/>
+                      <div className="cardImage__wishlist">
+                        <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
+                          <i className="icon-heart text-12"></i>
+                        </button>
                       </div>
-                    </div>
 
-                    <div className="col-md-auto col-6">
-                      <div className="d-flex justify-center">
-                        <img src="img/clients/2.svg" alt="image"/>
-                      </div>
-                    </div>
 
-                    <div className="col-md-auto col-6">
-                      <div className="d-flex justify-center">
-                        <img src="img/clients/3.svg" alt="image"/>
-                      </div>
-                    </div>
-
-                    <div className="col-md-auto col-6">
-                      <div className="d-flex justify-center">
-                        <img src="img/clients/4.svg" alt="image"/>
-                      </div>
-                    </div>
-
-                    <div className="col-md-auto col-6">
-                      <div className="d-flex justify-center">
-                        <img src="img/clients/5.svg" alt="image"/>
-                      </div>
-                    </div>
-
-                    <div className="col-md-auto col-6">
-                      <div className="d-flex justify-center">
-                        <img src="img/clients/6.svg" alt="image"/>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </section>
-
-              <section className="layout-pt-md layout-pb-md">
-                <div data-anim-wrap className="container">
-                  <div data-anim="slide-up delay-1" className="row justify-center text-center">
-                    <div className="col-auto">
-                      <div className="sectionTitle -md">
-                        <h2 className="sectionTitle__title">Get inspiration for your next trip</h2>
-                        <p className=" sectionTitle__text mt-5 sm:mt-0">Interdum et malesuada fames</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="row y-gap-30 pt-40 sm:pt-20">
-
-                    <div data-anim="slide-up delay-3" className="col-lg-4 col-sm-6">
-
-                      <a href="#" className="blogCard -type-1 d-block ">
-                        <div className="blogCard__image">
-                          <div className="ratio ratio-4:3 rounded-4 rounded-8">
-                            <img className="img-ratio js-lazy" src="#" data-src="img/blog/1.png" alt="image"/>
-                          </div>
+                      <div className="cardImage__leftBadge">
+                        <div className="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-blue-1 text-white">
+                          Best Seller
                         </div>
-
-                        <div className="mt-20">
-                          <h4 className="text-dark-1 text-18 fw-500">10 European ski destinations you should visit this winter</h4>
-                          <div className="text-light-1 text-15 lh-14 mt-5">April 06, 2022</div>
-                        </div>
-                      </a>
-
-                    </div>
-
-                    <div data-anim="slide-up delay-4" className="col-lg-4 col-sm-6">
-
-                      <a href="#" className="blogCard -type-1 d-block ">
-                        <div className="blogCard__image">
-                          <div className="ratio ratio-4:3 rounded-4 rounded-8">
-                            <img className="img-ratio js-lazy" src="#" data-src="img/blog/2.png" alt="image"/>
-                          </div>
-                        </div>
-
-                        <div className="mt-20">
-                          <h4 className="text-dark-1 text-18 fw-500">Booking travel during Corona: good advice in an uncertain time</h4>
-                          <div className="text-light-1 text-15 lh-14 mt-5">April 06, 2022</div>
-                        </div>
-                      </a>
-
-                    </div>
-
-                    <div data-anim="slide-up delay-5" className="col-lg-4 col-sm-6">
-
-                      <a href="#" className="blogCard -type-1 d-block ">
-                        <div className="blogCard__image">
-                          <div className="ratio ratio-4:3 rounded-4 rounded-8">
-                            <img className="img-ratio js-lazy" src="#" data-src="img/blog/3.png" alt="image"/>
-                          </div>
-                        </div>
-
-                        <div className="mt-20">
-                          <h4 className="text-dark-1 text-18 fw-500">Where can I go? 5 amazing countries that are open right now</h4>
-                          <div className="text-light-1 text-15 lh-14 mt-5">April 06, 2022</div>
-                        </div>
-                      </a>
+                      </div>
 
                     </div>
 
                   </div>
-                </div>
-              </section>
 
-              <section className="layout-pt-md layout-pb-lg">
-                <div className="container">
-                  <div className="row y-gap-20 justify-between items-end">
-                    <div className="col-auto">
-                      <div className="sectionTitle -md">
-                        <h2 className="sectionTitle__title">Not a Member Yet?</h2>
-                        <p className="text-dark-1 sectionTitle__text mt-5 sm:mt-0">Join us! Our members can access savings of up to 50% and earn Trip Coins while booking.</p>
-                      </div>
+                  <div className="hotelsCard__content mt-10">
+                    <h4 className="hotelsCard__title text-dark-1 text-18 lh-16 fw-500">
+                      <span>The Westin New York at Times Square</span>
+                    </h4>
+
+                    <p className="text-light-1 lh-14 text-14 mt-5">Ciutat Vella, Barcelona</p>
+
+                    <div className="d-flex items-center mt-20">
+                      <div className="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white">4.8</div>
+                      <div className="text-14 text-dark-1 fw-500 ml-10">Exceptional</div>
+                      <div className="text-14 text-light-1 ml-10">3,014 reviews</div>
                     </div>
 
-                    <div className="col-auto">
-                      <div className="row x-gap-20 y-gap-20">
-                        <div className="col-auto">
-                          <button className="button px-40 h-60 -white bg-blue-1 text-white">
-                            Sign In
-                            <i className="icon-arrow-top-right ml-10"></i>
-                          </button>
-                        </div>
-
-                        <div className="col-auto">
-                          <button className="button px-40 h-60 -outline-blue-1 text-blue-1">
-                            Register
-                            <i className="icon-arrow-top-right ml-10"></i>
-                          </button>
-                        </div>
+                    <div className="mt-5">
+                      <div className="fw-500">
+                        Starting from <span className="text-blue-1">US$72</span>
                       </div>
                     </div>
                   </div>
-                </div>
-              </section>
+                </a>
+
+              </div>
+
+              <div className="col-lg-4 col-sm-6">
+
+                <a href="hotel-single-1.html" className="hotelsCard -type-1 ">
+                  <div className="hotelsCard__image">
+
+                    <div className="cardImage ratio ratio-1:1 rounded-4">
+                      <div className="cardImage__content">
+
+                        <img className="rounded-4 col-12" src="img/lists/hotel/2/3.png" alt="image" />
+
+
+                      </div>
+
+                      <div className="cardImage__wishlist">
+                        <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
+                          <i className="icon-heart text-12"></i>
+                        </button>
+                      </div>
+
+
+                      <div className="cardImage__leftBadge">
+                        <div className="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-yellow-1 text-dark-1">
+                          Top Rated
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div className="hotelsCard__content mt-10">
+                    <h4 className="hotelsCard__title text-dark-1 text-18 lh-16 fw-500">
+                      <span>DoubleTree by Hilton Hotel New York Times Square West</span>
+                    </h4>
+
+                    <p className="text-light-1 lh-14 text-14 mt-5">Manhattan, New York</p>
+
+                    <div className="d-flex items-center mt-20">
+                      <div className="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white">4.8</div>
+                      <div className="text-14 text-dark-1 fw-500 ml-10">Exceptional</div>
+                      <div className="text-14 text-light-1 ml-10">3,014 reviews</div>
+                    </div>
+
+                    <div className="mt-5">
+                      <div className="fw-500">
+                        Starting from <span className="text-blue-1">US$72</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+
+              <div className="col-lg-4 col-sm-6">
+
+                <a href="hotel-single-1.html" className="hotelsCard -type-1 ">
+                  <div className="hotelsCard__image">
+
+                    <div className="cardImage ratio ratio-1:1 rounded-4">
+                      <div className="cardImage__content">
+
+                        <img className="rounded-4 col-12" src="img/lists/hotel/2/4.png" alt="image" />
+
+
+                      </div>
+
+                      <div className="cardImage__wishlist">
+                        <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
+                          <i className="icon-heart text-12"></i>
+                        </button>
+                      </div>
+
+
+                      <div className="cardImage__leftBadge">
+                        <div className="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-dark-1 text-white">
+                          Breakfast included
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div className="hotelsCard__content mt-10">
+                    <h4 className="hotelsCard__title text-dark-1 text-18 lh-16 fw-500">
+                      <span>Staycity Aparthotels Deptford Bridge Station</span>
+                    </h4>
+
+                    <p className="text-light-1 lh-14 text-14 mt-5">Westminster Borough, London</p>
+
+                    <div className="d-flex items-center mt-20">
+                      <div className="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white">4.8</div>
+                      <div className="text-14 text-dark-1 fw-500 ml-10">Exceptional</div>
+                      <div className="text-14 text-light-1 ml-10">3,014 reviews</div>
+                    </div>
+
+                    <div className="mt-5">
+                      <div className="fw-500">
+                        Starting from <span className="text-blue-1">US$72</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+
+              <div className="col-lg-4 col-sm-6">
+
+                <a href="hotel-single-1.html" className="hotelsCard -type-1 ">
+                  <div className="hotelsCard__image">
+
+                    <div className="cardImage ratio ratio-1:1 rounded-4">
+                      <div className="cardImage__content">
+
+                        <img className="rounded-4 col-12" src="img/lists/hotel/2/5.png" alt="image" />
+
+
+                      </div>
+
+                      <div className="cardImage__wishlist">
+                        <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
+                          <i className="icon-heart text-12"></i>
+                        </button>
+                      </div>
+
+
+                      <div className="cardImage__leftBadge">
+                        <div className="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-blue-1 text-white">
+                          Best Seller
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div className="hotelsCard__content mt-10">
+                    <h4 className="hotelsCard__title text-dark-1 text-18 lh-16 fw-500">
+                      <span>The Westin New York at Times Square</span>
+                    </h4>
+
+                    <p className="text-light-1 lh-14 text-14 mt-5">Ciutat Vella, Barcelona</p>
+
+                    <div className="d-flex items-center mt-20">
+                      <div className="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white">4.8</div>
+                      <div className="text-14 text-dark-1 fw-500 ml-10">Exceptional</div>
+                      <div className="text-14 text-light-1 ml-10">3,014 reviews</div>
+                    </div>
+
+                    <div className="mt-5">
+                      <div className="fw-500">
+                        Starting from <span className="text-blue-1">US$72</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+
+              <div className="col-lg-4 col-sm-6">
+
+                <a href="hotel-single-1.html" className="hotelsCard -type-1 ">
+                  <div className="hotelsCard__image">
+
+                    <div className="cardImage ratio ratio-1:1 rounded-4">
+                      <div className="cardImage__content">
+
+                        <img className="rounded-4 col-12" src="img/lists/hotel/2/6.png" alt="image" />
+
+
+                      </div>
+
+                      <div className="cardImage__wishlist">
+                        <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
+                          <i className="icon-heart text-12"></i>
+                        </button>
+                      </div>
+
+
+                      <div className="cardImage__leftBadge">
+                        <div className="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-yellow-1 text-dark-1">
+                          Top Rated
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div className="hotelsCard__content mt-10">
+                    <h4 className="hotelsCard__title text-dark-1 text-18 lh-16 fw-500">
+                      <span>DoubleTree by Hilton Hotel New York Times Square West</span>
+                    </h4>
+
+                    <p className="text-light-1 lh-14 text-14 mt-5">Manhattan, New York</p>
+
+                    <div className="d-flex items-center mt-20">
+                      <div className="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white">4.8</div>
+                      <div className="text-14 text-dark-1 fw-500 ml-10">Exceptional</div>
+                      <div className="text-14 text-light-1 ml-10">3,014 reviews</div>
+                    </div>
+
+                    <div className="mt-5">
+                      <div className="fw-500">
+                        Starting from <span className="text-blue-1">US$72</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+
+              <div className="col-lg-4 col-sm-6">
+
+                <a href="hotel-single-1.html" className="hotelsCard -type-1 ">
+                  <div className="hotelsCard__image">
+
+                    <div className="cardImage ratio ratio-1:1 rounded-4">
+                      <div className="cardImage__content">
+
+                        <img className="rounded-4 col-12" src="img/lists/hotel/2/7.png" alt="image" />
+
+
+                      </div>
+
+                      <div className="cardImage__wishlist">
+                        <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
+                          <i className="icon-heart text-12"></i>
+                        </button>
+                      </div>
+
+
+                      <div className="cardImage__leftBadge">
+                        <div className="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-dark-1 text-white">
+                          Breakfast included
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div className="hotelsCard__content mt-10">
+                    <h4 className="hotelsCard__title text-dark-1 text-18 lh-16 fw-500">
+                      <span>Staycity Aparthotels Deptford Bridge Station</span>
+                    </h4>
+
+                    <p className="text-light-1 lh-14 text-14 mt-5">Westminster Borough, London</p>
+
+                    <div className="d-flex items-center mt-20">
+                      <div className="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white">4.8</div>
+                      <div className="text-14 text-dark-1 fw-500 ml-10">Exceptional</div>
+                      <div className="text-14 text-light-1 ml-10">3,014 reviews</div>
+                    </div>
+
+                    <div className="mt-5">
+                      <div className="fw-500">
+                        Starting from <span className="text-blue-1">US$72</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+
+              <div className="col-lg-4 col-sm-6">
+
+                <a href="hotel-single-1.html" className="hotelsCard -type-1 ">
+                  <div className="hotelsCard__image">
+
+                    <div className="cardImage ratio ratio-1:1 rounded-4">
+                      <div className="cardImage__content">
+
+                        <img className="rounded-4 col-12" src="img/lists/hotel/2/8.png" alt="image" />
+
+
+                      </div>
+
+                      <div className="cardImage__wishlist">
+                        <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
+                          <i className="icon-heart text-12"></i>
+                        </button>
+                      </div>
+
+
+                      <div className="cardImage__leftBadge">
+                        <div className="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-blue-1 text-white">
+                          Best Seller
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div className="hotelsCard__content mt-10">
+                    <h4 className="hotelsCard__title text-dark-1 text-18 lh-16 fw-500">
+                      <span>The Westin New York at Times Square</span>
+                    </h4>
+
+                    <p className="text-light-1 lh-14 text-14 mt-5">Ciutat Vella, Barcelona</p>
+
+                    <div className="d-flex items-center mt-20">
+                      <div className="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white">4.8</div>
+                      <div className="text-14 text-dark-1 fw-500 ml-10">Exceptional</div>
+                      <div className="text-14 text-light-1 ml-10">3,014 reviews</div>
+                    </div>
+
+                    <div className="mt-5">
+                      <div className="fw-500">
+                        Starting from <span className="text-blue-1">US$72</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+
+              <div className="col-lg-4 col-sm-6">
+
+                <a href="hotel-single-1.html" className="hotelsCard -type-1 ">
+                  <div className="hotelsCard__image">
+
+                    <div className="cardImage ratio ratio-1:1 rounded-4">
+                      <div className="cardImage__content">
+
+                        <img className="rounded-4 col-12" src="img/lists/hotel/2/9.png" alt="image" />
+
+
+                      </div>
+
+                      <div className="cardImage__wishlist">
+                        <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
+                          <i className="icon-heart text-12"></i>
+                        </button>
+                      </div>
+
+
+                      <div className="cardImage__leftBadge">
+                        <div className="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-blue-1 text-white">
+                          Best Seller
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div className="hotelsCard__content mt-10">
+                    <h4 className="hotelsCard__title text-dark-1 text-18 lh-16 fw-500">
+                      <span>The Westin New York at Times Square</span>
+                    </h4>
+
+                    <p className="text-light-1 lh-14 text-14 mt-5">Ciutat Vella, Barcelona</p>
+
+                    <div className="d-flex items-center mt-20">
+                      <div className="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white">4.8</div>
+                      <div className="text-14 text-dark-1 fw-500 ml-10">Exceptional</div>
+                      <div className="text-14 text-light-1 ml-10">3,014 reviews</div>
+                    </div>
+
+                    <div className="mt-5">
+                      <div className="fw-500">
+                        Starting from <span className="text-blue-1">US$72</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+
+              <div className="col-lg-4 col-sm-6">
+
+                <a href="hotel-single-1.html" className="hotelsCard -type-1 ">
+                  <div className="hotelsCard__image">
+
+                    <div className="cardImage ratio ratio-1:1 rounded-4">
+                      <div className="cardImage__content">
+
+                        <img className="rounded-4 col-12" src="img/lists/hotel/2/10.png" alt="image" />
+
+
+                      </div>
+
+                      <div className="cardImage__wishlist">
+                        <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
+                          <i className="icon-heart text-12"></i>
+                        </button>
+                      </div>
+
+
+                      <div className="cardImage__leftBadge">
+                        <div className="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-blue-1 text-white">
+                          Best Seller
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div className="hotelsCard__content mt-10">
+                    <h4 className="hotelsCard__title text-dark-1 text-18 lh-16 fw-500">
+                      <span>The Westin New York at Times Square</span>
+                    </h4>
+
+                    <p className="text-light-1 lh-14 text-14 mt-5">Ciutat Vella, Barcelona</p>
+
+                    <div className="d-flex items-center mt-20">
+                      <div className="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white">4.8</div>
+                      <div className="text-14 text-dark-1 fw-500 ml-10">Exceptional</div>
+                      <div className="text-14 text-light-1 ml-10">3,014 reviews</div>
+                    </div>
+
+                    <div className="mt-5">
+                      <div className="fw-500">
+                        Starting from <span className="text-blue-1">US$72</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+
+              <div className="col-lg-4 col-sm-6">
+
+                <a href="hotel-single-1.html" className="hotelsCard -type-1 ">
+                  <div className="hotelsCard__image">
+
+                    <div className="cardImage ratio ratio-1:1 rounded-4">
+                      <div className="cardImage__content">
+
+                        <img className="rounded-4 col-12" src="img/lists/hotel/2/11.png" alt="image" />
+
+
+                      </div>
+
+                      <div className="cardImage__wishlist">
+                        <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
+                          <i className="icon-heart text-12"></i>
+                        </button>
+                      </div>
+
+
+                      <div className="cardImage__leftBadge">
+                        <div className="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-blue-1 text-white">
+                          Best Seller
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div className="hotelsCard__content mt-10">
+                    <h4 className="hotelsCard__title text-dark-1 text-18 lh-16 fw-500">
+                      <span>The Westin New York at Times Square</span>
+                    </h4>
+
+                    <p className="text-light-1 lh-14 text-14 mt-5">Ciutat Vella, Barcelona</p>
+
+                    <div className="d-flex items-center mt-20">
+                      <div className="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white">4.8</div>
+                      <div className="text-14 text-dark-1 fw-500 ml-10">Exceptional</div>
+                      <div className="text-14 text-light-1 ml-10">3,014 reviews</div>
+                    </div>
+
+                    <div className="mt-5">
+                      <div className="fw-500">
+                        Starting from <span className="text-blue-1">US$72</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+
+              <div className="col-lg-4 col-sm-6">
+
+                <a href="hotel-single-1.html" className="hotelsCard -type-1 ">
+                  <div className="hotelsCard__image">
+
+                    <div className="cardImage ratio ratio-1:1 rounded-4">
+                      <div className="cardImage__content">
+
+                        <img className="rounded-4 col-12" src="img/lists/hotel/2/12.png" alt="image" />
+
+
+                      </div>
+
+                      <div className="cardImage__wishlist">
+                        <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
+                          <i className="icon-heart text-12"></i>
+                        </button>
+                      </div>
+
+
+                      <div className="cardImage__leftBadge">
+                        <div className="py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase bg-blue-1 text-white">
+                          Best Seller
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  <div className="hotelsCard__content mt-10">
+                    <h4 className="hotelsCard__title text-dark-1 text-18 lh-16 fw-500">
+                      <span>The Westin New York at Times Square</span>
+                    </h4>
+
+                    <p className="text-light-1 lh-14 text-14 mt-5">Ciutat Vella, Barcelona</p>
+
+                    <div className="d-flex items-center mt-20">
+                      <div className="flex-center bg-blue-1 rounded-4 size-30 text-12 fw-600 text-white">4.8</div>
+                      <div className="text-14 text-dark-1 fw-500 ml-10">Exceptional</div>
+                      <div className="text-14 text-light-1 ml-10">3,014 reviews</div>
+                    </div>
+
+                    <div className="mt-5">
+                      <div className="fw-500">
+                        Starting from <span className="text-blue-1">US$72</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+
+              </div>
+
             </div>
-  );
-};
 
-export default Home;
+            <div className="border-top-light mt-30 pt-30">
+              <div className="row x-gap-10 y-gap-20 justify-between md:justify-center">
+                <div className="col-auto md:order-1">
+                  <button className="button -blue-1 size-40 rounded-full border-light">
+                    <i className="icon-chevron-left text-12"></i>
+                  </button>
+                </div>
 
+                <div className="col-md-auto md:order-3">
+                  <div className="row x-gap-20 y-gap-20 items-center md:d-none">
+
+                    <div className="col-auto">
+
+                      <div className="size-40 flex-center rounded-full">1</div>
+
+                    </div>
+
+                    <div className="col-auto">
+
+                      <div className="size-40 flex-center rounded-full bg-dark-1 text-white">2</div>
+
+                    </div>
+
+                    <div className="col-auto">
+
+                      <div className="size-40 flex-center rounded-full">3</div>
+
+                    </div>
+
+                    <div className="col-auto">
+
+                      <div className="size-40 flex-center rounded-full bg-light-2">4</div>
+
+                    </div>
+
+                    <div className="col-auto">
+
+                      <div className="size-40 flex-center rounded-full">5</div>
+
+                    </div>
+
+                    <div className="col-auto">
+
+                      <div className="size-40 flex-center rounded-full">...</div>
+
+                    </div>
+
+                    <div className="col-auto">
+
+                      <div className="size-40 flex-center rounded-full">20</div>
+
+                    </div>
+
+                  </div>
+
+                  <div className="row x-gap-10 y-gap-20 justify-center items-center d-none md:d-flex">
+
+                    <div className="col-auto">
+
+                      <div className="size-40 flex-center rounded-full">1</div>
+
+                    </div>
+
+                    <div className="col-auto">
+
+                      <div className="size-40 flex-center rounded-full bg-dark-1 text-white">2</div>
+
+                    </div>
+
+                    <div className="col-auto">
+
+                      <div className="size-40 flex-center rounded-full">3</div>
+
+                    </div>
+
+                  </div>
+
+                  <div className="text-center mt-30 md:mt-10">
+                    <div className="text-14 text-light-1">1 – 20 of 300+ properties found</div>
+                  </div>
+                </div>
+
+                <div className="col-auto md:order-2">
+                  <button className="button -blue-1 size-40 rounded-full border-light">
+                    <i className="icon-chevron-right text-12"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+  )
+}
+
+export default  Listings;

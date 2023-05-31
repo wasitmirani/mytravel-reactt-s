@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import Home from "../pages/Home";
+import Listings from "../pages/Listings";
+import About from "../pages/About";
 import HeaderMenu  from './header';
 import FooterMenu from "./footer";
 import NotFound  from '../pages/Error404';
@@ -36,6 +38,9 @@ const Master: React.FC = () => {
 
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/listings" element={<Listings />} />
+          <Route path="/about" element={<About />} />
+          
           <Route path="*" element={<NotFound />} />
         </Routes>
         {/* Footer c */}
